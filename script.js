@@ -68,4 +68,4 @@ function borrarComentarios() { // Función para borrar todos los comentarios
     localStorage.removeItem('comentarios'); // Elimina todos los comentarios guardados en localStorage
     document.getElementById('comentarios').innerHTML = '<h3>Comentarios</h3>'; // Restaura la sección de comentarios a su estado inicial
   }
-}
+ }
